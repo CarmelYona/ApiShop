@@ -1,0 +1,10 @@
+.brand-list {
+    display: grid;
+    width: 100%;
+    padding: 10px;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    gap: 5px;
+    height: 82vh;
+    overflow-y: scroll;
+}

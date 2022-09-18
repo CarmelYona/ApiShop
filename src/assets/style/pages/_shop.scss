@@ -1,0 +1,14 @@
+.App {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://s3-us-west-2.amazonaws.com/giftitlivenew/GiftitWebImages/evitebg.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+    .app-wrapper {
+        background-color: white;
+        height: 70%;
+    }
+}

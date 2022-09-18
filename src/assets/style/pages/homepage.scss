@@ -1,0 +1,43 @@
+@media (min-width: 1020px) {
+    .homepage-container {
+
+        & .video-container {
+            display: flex;
+        }
+
+        & .video-container {
+            & .left-container {
+                flex: 1;
+            }
+
+            & .right-container {
+                flex: 1;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 1020px) {
+    .homepage-container {
+
+        & .video-container {
+            display: grid;
+            grid-template-areas:
+                "video"
+                "list";
+        }
+
+        & .video-container {
+            & .left-container {
+                grid-area: list;
+            }
+
+            & .right-container {
+                text-align: center;
+                grid-area: video;
+            }
+        }
+    }
+}
